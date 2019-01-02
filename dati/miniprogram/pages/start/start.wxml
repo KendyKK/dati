@@ -1,0 +1,39 @@
+<!--pages/start/start.wxml-->
+<view class="page-body">
+  <button class='return' bindtap='gotoindex'>返回</button>
+  <view class="page-body-wrapper">
+    <cover-image class="cover-image" bindtap="tap1" src="/img/logo.jpg" />
+  </view>
+
+  <view class='countDown'>倒计时：
+    <text style='color:red'>{{countDownNum}}</text>s
+  </view>
+
+
+  <view wx:for="{{question}}" wx:if="{{item.id == questionnum}}" wx:key="{{index}}">
+  <view>题目{{ten?10:questionnum}}</view>
+    <view>{{item.questions}}</view>
+    <radio-group class="radio-group" bindchange="radioChange" >
+      <view>
+        <label>A:
+          <radio name="answer" value="a" checked />{{item.a_answer}}</label>
+      </view>
+      <view>
+        <label>B:
+          <radio name="answer" value="b" />{{item.b_answer}}</label>
+      </view>
+      <view>
+        <label>C:
+          <radio name="answer" value="c" />{{item.c_answer}}</label>
+      </view>
+      <view>
+        <label>D:
+          <radio name="answer" value="d" />{{item.d_answer}}</label>
+      </view>
+    </radio-group>
+  </view>
+
+  <button class='my_button' catchtap="aaa" wx:if="questionnum != 10">下一题</button>    <button class='my_button'  wx:if="questionnum === 10" bindtap='gototabB'>提交答案</button>
+  <view class='tip'>{{tip}}</view>
+  <text>积分：每答对一题积1分，目前得分{{defen}}</text>
+</view>

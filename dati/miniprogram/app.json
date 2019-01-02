@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/tabA/tabA",
+    "pages/tabB/tabB",
+    "pages/start/start"
+  ],
+  "window": {
+    "backgroundColor": "#e8c46d",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#e8c46d",
+    "navigationBarTitleText": "创建全国文明城市知识竞赛",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#fcf4d4",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "",
+      "iconPath": "img/home.png",
+      "selectedIconPath": "img/activehome.png"
+    },
+    {
+      "pagePath": "pages/tabA/tabA",
+      "text": "",
+      "iconPath": "img/rule.png",
+      "selectedIconPath":"img/activerule.png"
+    },
+    {
+      "pagePath": "pages/tabB/tabB",
+      "text": "",
+      "iconPath": "img/rank.png",
+      "selectedIconPath": "img/activerank.png"
+    }]
+  }
+}

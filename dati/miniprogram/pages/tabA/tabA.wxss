@@ -1,0 +1,31 @@
+/* pages/tabA/tabA.wxss */
+.my_button{
+  width: 93%;
+  margin-top: 30rpx;
+  background-color: #dd693d;
+  color: white;
+  border-radius: 15rpx; 
+  font-size: 15px;
+  height: 50px;
+}
+.my_view_time{
+  text-align: center;
+  border-radius: 15rpx; 
+  font-size: 90%;
+  width: 93%;
+  margin-top: 30rpx;
+  background-color: white;
+  margin-left: 3.8%;
+}
+page{
+  background-color: #e8c46d;
+}
+.my_view_activity{
+  border-radius: 15rpx; 
+  font-size: 14px;
+  width: 93%;
+  margin-top: 30rpx;
+  background-color: white;
+  margin-left: 3.8%;
+  height: 250px;
+}

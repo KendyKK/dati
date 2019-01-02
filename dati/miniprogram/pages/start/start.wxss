@@ -1,0 +1,54 @@
+/* pages/start/start.wxss */
+
+page {
+  background-color: #e8c46d;
+}
+
+.my_view {
+  display: flex;
+  flex-grow: 1;
+  font-size: 35rpx;
+  margin-top: 20rpx;
+}
+.question{
+  font-size: 35rpx;
+}
+.my_radio{
+  margin-top: 40rpx;
+}
+.first{
+  margin-top: 20rpx;
+}
+.countDown{
+  margin-top: 180rpx;
+}
+.my_button{
+  width: 95%;
+  margin-top: 45rpx;
+  background-color: #dd693d;
+  color: white;
+  border-radius: 15rpx; 
+  font-size: 35rpx;
+}
+.return{
+  width: 130rpx;
+  margin-top: 5rpx;
+  background-color: #dd693d;
+  color: white;
+  border-radius: 10rpx; 
+  font-size: 25rpx;
+  margin-left: 20rpx;
+  float: left;
+}
+.tip{
+  width: 710rpx;
+  margin-top: 50rpx;
+  height: 50rpx;
+  background-color: white;
+  color:black;
+  border-radius: 10rpx; 
+  font-size: 30rpx;
+  margin-left: 20rpx;
+  float: left;
+  text-align: center;
+}

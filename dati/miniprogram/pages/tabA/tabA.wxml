@@ -1,0 +1,14 @@
+<button class='my_button'>活动时间</button>
+<view class='my_view_time'>
+  <text>2018年12月10日-12月16日</text>
+</view>
+<button class='my_button'>活动说明</button>
+<view class='my_view_activity'>
+<text class='my_text'>
+活动说明:
+
+  1、参赛者关注“文明红寺堡”微信公众号，关注后回复“创城”点击“创建全国文明城市知识竞赛”活动链接，即可参与竞赛答题。
+  2、试题共有140道，每题1分，分为7天答题，每天20道题，答题结束后系统将自动打分排名。
+  3、本次活动结束后，主办方将按累计得分排名给予相应奖励，得分相同者按答题时间在前者为先。
+</text>
+</view>

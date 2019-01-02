@@ -1,0 +1,22 @@
+<button class='my_button'>排行榜</button>
+
+<view class='my_view' wx:for="{{obj}}">
+  <view class='my_view1'>
+  <text>
+  {{item.rank}}
+  </text>
+  </view>
+
+  <view class='my_view1'>
+  <text>
+  {{item.name}}
+  </text>
+  </view>
+
+  <view class='my_view1'>
+  <text>
+  {{item.score}}
+  </text>
+  </view>
+  
+</view>

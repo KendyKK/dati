@@ -1,0 +1,24 @@
+/* pages/tabB/tabB.wxss */
+.my_button{
+  width: 90%;
+  margin-top: 30rpx;
+  background-color: #dd693d;
+  color: white;
+  border-radius: 15rpx; 
+  font-size: 15px;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+}
+page{
+  background-color: #e8c46d;
+}
+.my_view{
+  display: flex;
+  flex-direction: row;
+  margin-left: 60px;
+}
+ .my_view1{
+   display: flex;
+   flex-grow: 1;
+ }
